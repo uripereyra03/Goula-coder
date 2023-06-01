@@ -1,0 +1,12 @@
+/*---PALETA DE COLORES---*/
+
+$color-principal:black;
+$color-secundario:brown;
+
+/*---Mixins---*/
+
+@mixin flex ($flex, $flex-flow,$justify,){
+    display: $flex;
+    flex-flow: $flex-flow;
+    justify-content: $justify;
+}   
